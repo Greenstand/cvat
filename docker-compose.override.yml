@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+	cvat_proxy:
+		environment:
+			CVAT_HOST: 3.122.86.201
+		ports:
+			- '80:80'
